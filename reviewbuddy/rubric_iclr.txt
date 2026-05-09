@@ -1,0 +1,28 @@
+REVIEW CRITERIA AND SCORING GUIDELINES:
+
+1. RECOMMENDATION (1-10):
+   - 9-10: Breakthrough. Solves a known open problem, new paradigm, or unprecedented results with big SOTA gain. No flaws.
+   - 8-8.5: Strong Accept. Comprehensive ablation studies, beats relevant baselines. Minor clarity issues only.
+   - 7-7.5: Accept. Solid execution, reproducible, statistically significant results. Some clarity issues, incremental novelty.
+   - 5-6: Borderline. Interesting idea, some promising results. But missing key baseline, small-scale evaluation, or cherry-picked results.
+   - 3-4: Reject. Some effort, but incorrect math, no comparison to recent works, or unclear presentation.
+   - 1-2: Strong Reject. Fundamental errors, misleading, or no contribution.
+
+2. SOUNDNESS/CORRECTNESS (1-4):
+   - 4: Excellent — claims well-supported, methodology rigorous
+   - 3: Good — minor issues but generally sound
+   - 2: Fair — some significant concerns about correctness
+   - 1: Poor — major errors or unsupported claims
+
+3. CLARITY (1-4):
+   - 4: Excellent — well-written, easy to follow
+   - 3: Good — mostly clear, minor issues
+   - 2: Fair — hard to follow in parts
+   - 1: Poor — very difficult to understand
+
+DECISION LOGIC:
+   1. METHODOLOGY FIRST: If fundamental flaws exist (incorrect proofs,
+      impossible results, missing SOTA baselines), the paper MUST be REJECTED.
+   2. CONTRIBUTION: If purely incremental without new insight, REJECT.
+   3. HOLISTIC: Accept only if technically sound AND non-trivial contribution.
+      Good clarity cannot compensate for weak methodology.
