@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+env*/
+
+# Data files
+*.json
+train_pdf_cache/
+pageindex_cache/
+
+# Trained models
+flat_optimized/
+
+# Build artifacts
+dist/
+*.egg-info/

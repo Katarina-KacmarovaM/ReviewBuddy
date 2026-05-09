@@ -49,4 +49,4 @@ experiments = [
 
 [tool.uv.build-backend]
 module-root = ""
-source-include = ["reviewbuddy/rubric_iclr.txt", "experiments/"]
+source-include = ["reviewbuddy/rubric_iclr.txt"]
