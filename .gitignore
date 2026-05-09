@@ -16,3 +16,10 @@ flat_optimized/
 # Build artifacts
 dist/
 *.egg-info/
+experiments/augment_reviews.py
+experiments/priprava_fix.py
+experiments/supplement_scores.py
+experiments/reduce_scores.py
+experiments/rlm_process.py
+experiments/rlm_process2.py
+experiments/*.json
