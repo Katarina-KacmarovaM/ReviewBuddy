@@ -31,8 +31,8 @@ TARGET_TRAIN = 150
 TARGET_TEST = 150
 
 OPENREVIEW_BASEURL = "https://api2.openreview.net"
-OPENREVIEW_USERNAME = "xkacmarovamadar@stuba.sk"
-OPENREVIEW_PASSWORD = "KAWyrm62GBej-H-"
+OPENREVIEW_USERNAME = os.getenv("OPENREVIEW_USERNAME")
+OPENREVIEW_PASSWORD = os.getenv("OPENREVIEW_PASSWORD")
 
 
 # =============================================================================
